@@ -13,7 +13,7 @@ docker run \
     --pid=host \
     --privileged=true \
     -d \
-    gcr.io/google_containers/hyperkube-amd64:v1.2.2 \
+    gcr.io/google_containers/hyperkube-amd64:v1.3.0-alpha.4 \
     /hyperkube kubelet \
         --containerized \
         --hostname-override="192.168.99.100" \
